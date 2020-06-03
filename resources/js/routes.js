@@ -1,20 +1,56 @@
 import VueRouter from 'vue-router'
-import ExampleComponent from './components/ExampleComponent'
-import Example2Component from './components/Example2Component'
+import Home from './pages/Home'
+import About from './pages/About'
+import Contact from './pages/Contact'
+import Login from './pages/Login'
+import Register from './pages/Register'
 
 const routes = [
     {
         path: "/",
-        component: ExampleComponent
+        component: Home,
+        name: 'home',
+        meta: {
+            title: 'Home'
+        }
     },
     {
-        path: "/example2",
-        component: Example2Component
+        path: "/about",
+        component: About,
+        name: 'about',
+        meta: {
+            title: 'About'
+        }
+    },
+    {
+        path: "/contact",
+        component: Contact,
+        name: 'contact',
+        meta: {
+            title: 'Contact'
+        }
+    },
+    {
+        path: "/login",
+        component: Login,
+        name: 'login',
+        meta: {
+            title: 'Login'
+        }
+    },
+    {
+        path: "/register",
+        component: Register,
+        name: 'register',
+        meta: {
+            title: 'Register'
+        }
     }
 ]
 
 const router = new VueRouter({
-    routes
+    routes,
+    // mode: 'history',
 })
 
 export default router
