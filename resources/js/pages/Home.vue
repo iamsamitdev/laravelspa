@@ -26,6 +26,27 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+
+        <div class="container-fluid my-4">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <i class="fas fa-heart"></i>
+                    <h1 class="mt-3">Service Mind</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio laborum neque repellendus iste delectus obcaecati tempora sequi consequuntur, tempore reprehenderit quisquam architecto adipisci ex, laudantium atque nesciunt, officiis aliquid repudiandae.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="fas fa-chart-pie"></i>
+                    <h1 class="mt-3">Reporting</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio laborum neque repellendus iste delectus obcaecati tempora sequi consequuntur, tempore reprehenderit quisquam architecto adipisci ex, laudantium atque nesciunt, officiis aliquid repudiandae.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="fas fa-fire"></i>
+                    <h1 class="mt-3">Traindy</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio laborum neque repellendus iste delectus obcaecati tempora sequi consequuntur, tempore reprehenderit quisquam architecto adipisci ex, laudantium atque nesciunt, officiis aliquid repudiandae.</p>
+                </div>
+            </div>
+        </div>
+
     </div>
 </template>
 
