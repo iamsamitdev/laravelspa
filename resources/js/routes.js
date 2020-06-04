@@ -4,6 +4,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Login from './pages/Login'
 import Register from './pages/Register'
+import Product from './pages/Product.vue'
 
 const routes = [
     {
@@ -44,6 +45,14 @@ const routes = [
         name: 'register',
         meta: {
             title: 'Register'
+        }
+    },
+    {
+        path: "/products",
+        component: Product,
+        name: 'products',
+        meta: {
+            title: 'Product'
         }
     }
 ]

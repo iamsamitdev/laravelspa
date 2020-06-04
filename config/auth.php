@@ -42,7 +42,7 @@ return [
         ],
 
         'api' => [
-            'driver' => 'token',
+            'driver' => 'passport', // แก้เป็น passport จากเดิม token
             'provider' => 'users',
             'hash' => false,
         ],

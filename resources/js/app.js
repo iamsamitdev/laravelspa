@@ -11,6 +11,7 @@ Vue.component('navbar-component', require('./components/Navbar.vue').default);
 Vue.component('footer-component', require('./components/Footer.vue').default);
 
 Vue.use(VueRouter)
+Vue.use(require('vue-moment'));
 
 const app = new Vue({
     el: '#app',
